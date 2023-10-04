@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  margin: 15px;
+  list-style: none;
+}
+.card-title {
+  color: #000000;
+  font-weight: 600;
+  font-size: 20px;
+  max-width: 60%;
+}
+
+.btn {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 1px solid #ff0b37;
+  border-radius: 10px;
+  height: 35px;
+  width: 100px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  max-width: 20%;
+}
